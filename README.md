@@ -38,7 +38,7 @@ SkillForge offers a unique approach to interview preparation by incorporating th
 
 2. **Navigate to the project directory**:
    ```bash
-   cd ai-mock-interview-app
+   cd AI-Interview-mocker-mainn
    ```
 
 3. **Install dependencies**:
