@@ -1,38 +1,63 @@
 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Mock Interview App
 
-## Getting Started
+AI Mock Interview App is a web-based application designed to help users practice for job interviews by simulating real interview scenarios using artificial intelligence. With customizable interview questions and instant feedback, users can sharpen their responses and improve their confidence in a realistic, interactive setting.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Realistic Interview Simulation**: Emulates a live interview environment with dynamic AI-driven responses.
+- **Customizable Questions**: Tailor the interview questions based on job roles, industries, or skill levels.
+- **Instant Feedback**: Provides real-time feedback on answers to help users improve.
+- **Performance Analytics**: Tracks performance and gives detailed insights on areas to focus on.
+- **User-Friendly Interface**: Intuitive design for an easy-to-navigate experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ai-mock-interview-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd ai-mock-interview-app
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the app:
+   ```bash
+   npm start
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Open the app in your browser and sign up or log in.
+- Choose your preferred interview type and set specific configurations.
+- Start the mock interview and interact with the AI interviewer.
+- Review feedback and save your performance for future reference.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- **Frontend**: React, HTML, CSS
+- **Backend**: Node.js, Express
+- **AI**: Natural Language Processing (NLP) with OpenAI API
+- **Database**: MongoDB
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! Please follow these steps:
+
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
