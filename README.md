@@ -1,63 +1,54 @@
+# SkillForge - AI Mock Interview Prep for Developers
+
+SkillForge is a web-based AI-driven platform designed to assist developers in preparing for job interviews. The app simulates realistic, customizable interview scenarios, providing real-time feedback to help candidates improve their responses and increase their chances of success. Built during the 36-hour CodeStorm 2024 hackathon by Team **AI Mavericks**. 
 
 
-# AI Mock Interview App
+## Problem Statement
 
-AI Mock Interview App is a web-based application designed to help users practice for job interviews by simulating real interview scenarios using artificial intelligence. With customizable interview questions and instant feedback, users can sharpen their responses and improve their confidence in a realistic, interactive setting.
+Traditional interview prep is limited, lacking personalized AI-driven guidance and real-world practice. SkillForge tackles this by providing tailored, adaptive interview prep for aspiring developers.
 
+### Key Issues Addressed:
+- **Lack of Personalized Feedback**: Current platforms fail to offer real-time, AI-powered insights.
+- **Generic Question Sets**: Many tools provide broad, one-size-fits-all questions without role specificity.
+- **Limited Accessibility**: Financial, geographic, and time constraints prevent broad access to mock interviews.
+- **Ineffective Progress Tracking**: Users struggle to monitor improvements and gain targeted feedback.
 
+## Solution and Features
 
-## Features
+SkillForge offers a unique approach to interview preparation by incorporating the following:
 
-- **Realistic Interview Simulation**: Emulates a live interview environment with dynamic AI-driven responses.
-- **Customizable Questions**: Tailor the interview questions based on job roles, industries, or skill levels.
-- **Instant Feedback**: Provides real-time feedback on answers to help users improve.
-- **Performance Analytics**: Tracks performance and gives detailed insights on areas to focus on.
-- **User-Friendly Interface**: Intuitive design for an easy-to-navigate experience.
+- **Adaptive Learning**: Questions adjust based on user responses to ensure a personalized experience.
+- **Role-Specific Scenarios**: Tailored questions for specific job roles or skills to maximize relevance.
+- **User-Friendly Interface**: Intuitive design for a seamless experience.
+- **Performance Insights**: Tracks user progress and provides actionable insights to help improve over time.
 
-## Installation
+## Technology Stack
 
-1. Clone the repository:
+- **Frontend & Backend**: Next.js – For both server-side rendering and backend operations.
+- **Database**: Neon DB (PostgreSQL) – Manages user data, interview results, and tracking.
+- **AI Engine**: Gemini AI – Analyzes responses and provides customized interview questions.
+- **Authentication**: Clerk – Secure, user-friendly authentication and session management.
+
+## Getting Started
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/ai-mock-interview-app.git
    ```
-2. Navigate to the project directory:
+
+2. **Navigate to the project directory**:
    ```bash
    cd ai-mock-interview-app
    ```
-3. Install dependencies:
+
+3. **Install dependencies**:
    ```bash
    npm install
    ```
-4. Run the app:
+
+4. **Run the app**:
    ```bash
-   npm start
+   npm run dev 
    ```
 
-## Usage
-
-- Open the app in your browser and sign up or log in.
-- Choose your preferred interview type and set specific configurations.
-- Start the mock interview and interact with the AI interviewer.
-- Review feedback and save your performance for future reference.
-
-## Technologies Used
-
-- **Frontend**: React, HTML, CSS
-- **Backend**: Node.js, Express
-- **AI**: Natural Language Processing (NLP) with OpenAI API
-- **Database**: MongoDB
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the project.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
