@@ -1,7 +1,6 @@
 # SkillForge - AI Mock Interview Prep for Developers
 
 SkillForge is a web-based AI-driven platform designed to assist developers in preparing for job interviews. The app simulates realistic, customizable interview scenarios, providing real-time feedback to help candidates improve their responses and increase their chances of success. Built during the 36-hour CodeStorm 2024 hackathon by Team **AI Mavericks**. 
-## Screenshots
 
 ![App Screenshot](https://github.com/SpyBoyy/AI-Interview-mocker-mainn/blob/master/img.png) 
 
