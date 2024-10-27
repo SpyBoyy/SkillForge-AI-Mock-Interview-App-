@@ -1,0 +1,16 @@
+<svg width="220" height="60" viewBox="0 0 220 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle Design -->
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#000000; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333333; stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <circle cx="30" cy="30" r="28" fill="url(#grad1)"/>
+  <circle cx="30" cy="30" r="18" fill="white"/>
+  <circle cx="30" cy="30" r="9" fill="#000000"/>
+
+  <!-- Text "Skill Forge" -->
+  <text x="70" y="35" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#000000" font-weight="bold">Skill Forge</text>
+</svg>
