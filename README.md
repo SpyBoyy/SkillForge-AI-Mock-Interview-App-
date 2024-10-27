@@ -31,6 +31,7 @@ SkillForge offers a unique approach to interview preparation by incorporating th
 
 ## Getting Started
 
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/SpyBoyy/AI-Interview-mocker-mainn.git
@@ -51,4 +52,17 @@ SkillForge offers a unique approach to interview preparation by incorporating th
    npm run dev 
    ```
 
+## Environment Variables
 
+To run this project, you will need to add the following environment variables to your .env file 
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=
+
+NEXT_PUBLIC_DRIZZLE_DB_URL=
+NEXT_PUBLIC_GEMINI_API_KEY=
+
+NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT=
