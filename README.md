@@ -33,7 +33,7 @@ SkillForge offers a unique approach to interview preparation by incorporating th
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ai-mock-interview-app.git
+   git clone https://github.com/SpyBoyy/AI-Interview-mocker-mainn.git
    ```
 
 2. **Navigate to the project directory**:
